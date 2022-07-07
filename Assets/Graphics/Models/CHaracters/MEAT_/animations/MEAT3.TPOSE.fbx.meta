@@ -1,0 +1,683 @@
+fileFormatVersion: 2
+guid: 3391ad5d552233e49817967bd912735b
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 20
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips:
+  - f408bf0b47ef52a4983056b382943f0a
+  - 2443137c02d94534eabce582a08e3be9
+  - 730bf8e6b25a86345a2eeed39c84b130
+  - 5ff868fd83dfb50488e120c7b1d0458d
+  - 61069cc4e1556064cb46aace07251760
+  - 620c22c64bcdec0409038a84d8def17d
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: MEAT_:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: MEAT_:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: MEAT3.TPOSE(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pCube2
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: -0.009519166, y: 4.44203, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 5.0729623, y: 5.0729623, z: 2.479919}
+    - name: MEAT_:pPlane1
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: -0, y: 4.627867, z: 0.61694753}
+      rotation: {x: 0.6494042, y: -0, z: -0, w: 0.7604434}
+      scale: {x: 2.0656464, y: 2.0656464, z: 2.0656464}
+    - name: MEAT_:transform3
+      parentName: MEAT_:pPlane1
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pCone1
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 0.4435532, y: 4.7710586, z: 0.22579391}
+      rotation: {x: -0.3877052, y: -0.4075579, z: -0.49375674, w: 0.66316324}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pCube3
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: -0.009519166, y: 2.8666801, z: 0.23429991}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 5.8348775, y: 5.8348775, z: 5.8348775}
+    - name: MEAT_:pCube4
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 0.8126705, y: 4.2528186, z: 0.015857212}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.8928115, y: 1.8928115, z: 2.8791227}
+    - name: MEAT_:pCylinder16
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 1.344489, y: 1.7952956, z: 0.12723875}
+      rotation: {x: 0.018573364, y: -0.052451875, z: -0.33327663, w: 0.9411857}
+      scale: {x: 0.4309052, y: 0.4309052, z: 0.4309052}
+    - name: MEAT_:transform8
+      parentName: MEAT_:pCylinder16
+      position: {x: -0.045554962, y: -0.8140088, z: -0.061007857}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:group2
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 1.3427898, y: 1.647761, z: 0.0034279109}
+      rotation: {x: 0, y: -0, z: -0.027512843, w: 0.99962145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pasted__pCylinder16
+      parentName: MEAT_:group2
+      position: {x: 0.02632046, y: 0.09931975, z: 0.017940622}
+      rotation: {x: 0, y: -0, z: -0.3337938, w: 0.94264615}
+      scale: {x: 0.49142155, y: 0.49142155, z: 0.49142155}
+    - name: MEAT_:transform9
+      parentName: MEAT_:pasted__pCylinder16
+      position: {x: -0.050063167, y: -0.77259415, z: -0.06100785}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:group3
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 1.3727165, y: 1.7201134, z: -0.102342315}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8064644, y: 0.8064644, z: 0.8064644}
+    - name: MEAT_:pasted__group2
+      parentName: MEAT_:group3
+      position: {x: -0.029926708, y: -0.0723523, z: -0.017940618}
+      rotation: {x: 0, y: -0, z: -0.027512843, w: 0.99962145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pasted__pasted__pCylinder16
+      parentName: MEAT_:pasted__group2
+      position: {x: 0.06000939, y: 0.13174352, z: 0.014191784}
+      rotation: {x: -0.011494947, y: 0.027543882, z: -0.3336451, w: 0.9422262}
+      scale: {x: 0.49142155, y: 0.49142155, z: 0.49142155}
+    - name: MEAT_:transform10
+      parentName: MEAT_:pasted__pasted__pCylinder16
+      position: {x: -0.050063416, y: -0.77259415, z: -0.061007924}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:group4
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 1.4050348, y: 1.7651876, z: -0.16008615}
+      rotation: {x: 0, y: 0.047285028, z: -0, w: 0.99888146}
+      scale: {x: 0.67367506, y: 0.67367506, z: 0.67367506}
+    - name: MEAT_:pasted__group3
+      parentName: MEAT_:group4
+      position: {x: -0.03003144, y: -0.04507408, z: 0.003023338}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.8064644, y: 0.8064644, z: 0.8064644}
+    - name: MEAT_:pasted__pasted__group2
+      parentName: MEAT_:pasted__group3
+      position: {x: -0.029926708, y: -0.0723523, z: -0.017940618}
+      rotation: {x: 0, y: -0, z: -0.027512843, w: 0.99962145}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pasted__pasted__pasted__pCylinder16
+      parentName: MEAT_:pasted__pasted__group2
+      position: {x: -0.005565643, y: 0.14799549, z: -0.055190057}
+      rotation: {x: 0.014536528, y: 0.038394585, z: -0.33018443, w: 0.9430232}
+      scale: {x: 0.49142155, y: 0.49142155, z: 0.49142155}
+    - name: MEAT_:transform7
+      parentName: MEAT_:pasted__pasted__pasted__pCylinder16
+      position: {x: -0.050063115, y: -0.7725929, z: -0.06321917}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pCube5
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 1.284269, y: 1.9762261, z: 0.25051454}
+      rotation: {x: -0.12785573, y: -0.11304141, z: -0.20650226, w: 0.96344763}
+      scale: {x: 0.48931476, y: 0.48931476, z: 0.48931476}
+    - name: MEAT_:transform11
+      parentName: MEAT_:pCube5
+      position: {x: 0.013596248, y: 0.32379878, z: 0.03390751}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pCylinder17
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 0.5339505, y: 1.1949149, z: 0.122711085}
+      rotation: {x: 0.0032295357, y: -0.15640113, z: 0.020390486, w: 0.98747784}
+      scale: {x: 1.5639484, y: 4.0888886, z: 1.5639484}
+    - name: MEAT_:pTorus3
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: -0.009519166, y: 2.3112948, z: 0.06857021}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.85040444, y: 0.85040444, z: 0.70830977}
+    - name: MEAT_:pCube6
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: -0.69641834, y: 2.2786868, z: 0.43851867}
+      rotation: {x: 0, y: -0.40742928, z: -0, w: 0.91323674}
+      scale: {x: 1, y: 1, z: 0.2309345}
+    - name: MEAT_:pCube7
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 0.06127992, y: 4.138025, z: 0.82348907}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.30080596, y: 0.30080596, z: 0.30080596}
+    - name: MEAT_:transform2
+      parentName: MEAT_:pCube7
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pPlane2
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: -0, y: 4.363696, z: 0.2633122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:transform5
+      parentName: MEAT_:pPlane2
+      position: {x: -0, y: -4.363696, z: -0.2633122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pCylinder18
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 0.1440604, y: 4.4443765, z: 0.504283}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+      scale: {x: 0.54642475, y: 1.322801, z: 0.54642475}
+    - name: MEAT_:transform4
+      parentName: MEAT_:pCylinder18
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pPlane3
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: -0.009519166, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:pCube8
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: -0.009519166, y: 4.4608645, z: 0.3880663}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.756673, y: 1, z: 1}
+    - name: MEAT_:pCylinder19
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: -1.5345924, y: 1.919929, z: 0.030128023}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.0996566, y: 1.0996566, z: 1.0996566}
+    - name: MEAT_:pCube9
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 0.23417617, y: -0.22303243, z: 0.030515252}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3393365, y: 1.3393365, z: 1.3393365}
+    - name: MEAT_:Hips
+      parentName: MEAT3.TPOSE(Clone)
+      position: {x: 0.00017313256, y: 2.0550418, z: 0.0069350754}
+      rotation: {x: -0.00000021063545, y: 0.0000048445922, z: -0.00008928382, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightUpLeg
+      parentName: MEAT_:Hips
+      position: {x: 0.55531615, y: -0.20201568, z: -0.02782705}
+      rotation: {x: -0.00008415172, y: 0.046710182, z: 0.9989079, w: 0.0010952911}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightLeg
+      parentName: MEAT_:RightUpLeg
+      position: {x: -7.1054275e-16, y: 0.818521, z: -3.431875e-10}
+      rotation: {x: -0.13474655, y: -0.00018342405, z: 0.0024603703, w: 0.99087703}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightFoot
+      parentName: MEAT_:RightLeg
+      position: {x: 1.415356e-10, y: 0.7080467, z: 6.683717e-10}
+      rotation: {x: 0.54290545, y: -0.07577212, z: 0.035302557, w: 0.83562315}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightToeBase
+      parentName: MEAT_:RightFoot
+      position: {x: -0.0000000022808306, y: 0.58257914, z: 0.0000000071028423}
+      rotation: {x: 0.2886934, y: 0.0073132263, z: -0.0022052443, w: 0.95739114}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightToe_End
+      parentName: MEAT_:RightToeBase
+      position: {x: 0.0000000028219742, y: 0.2653455, z: 5.1067532e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftUpLeg
+      parentName: MEAT_:Hips
+      position: {x: -0.55531615, y: -0.20201568, z: -0.025192354}
+      rotation: {x: 0.000080284575, y: 0.05075244, z: 0.9987106, w: -0.0011895156}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftLeg
+      parentName: MEAT_:LeftUpLeg
+      position: {x: -2.6645354e-16, y: 0.81850225, z: -1.5054626e-10}
+      rotation: {x: -0.14493942, y: 0.00019555674, z: -0.0024711883, w: 0.98943746}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftFoot
+      parentName: MEAT_:LeftLeg
+      position: {x: 1.6231993e-11, y: 0.710564, z: 3.873431e-10}
+      rotation: {x: 0.5585718, y: 0.06679147, z: -0.03708769, w: 0.82593036}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftToeBase
+      parentName: MEAT_:LeftFoot
+      position: {x: -0.000000005396216, y: 0.60532826, z: 0.000000009096574}
+      rotation: {x: 0.27663842, y: 0.0035382737, z: -0.0010185901, w: 0.96096706}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftToe_End
+      parentName: MEAT_:LeftToeBase
+      position: {x: 0.0000000010614585, y: 0.26984924, z: -8.4773674e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:Spine
+      parentName: MEAT_:Hips
+      position: {x: -0, y: 0.36362842, z: -0.031999636}
+      rotation: {x: -0.043873154, y: -0.000008757062, z: 0.00008898531, w: 0.9990371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:Spine1
+      parentName: MEAT_:Spine
+      position: {x: -0, y: 0.42587215, z: -1.194898e-10}
+      rotation: {x: 6.910591e-26, y: -1.0226431e-13, z: 6.7575784e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:Spine2
+      parentName: MEAT_:Spine1
+      position: {x: -0, y: 0.4867115, z: 0.0000000025455715}
+      rotation: {x: 0, y: -5.04871e-29, z: 3.6603146e-28, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightShoulder
+      parentName: MEAT_:Spine2
+      position: {x: 0.29077125, y: 0.5982499, z: 0.004236353}
+      rotation: {x: 0.41855043, y: 0.5674926, z: -0.40512663, w: 0.58192796}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightArm
+      parentName: MEAT_:RightShoulder
+      position: {x: 1.9899489e-10, y: 0.5903056, z: 0.0000000024140423}
+      rotation: {x: 0.20388333, y: 0.0382559, z: -0.00980325, w: 0.97819835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightForeArm
+      parentName: MEAT_:RightArm
+      position: {x: -4.1025783e-10, y: 1.0006634, z: -0.000000027321445}
+      rotation: {x: 0.00000073796355, y: 0.72186816, z: -0.0000009564845, w: 0.6920306}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightHand
+      parentName: MEAT_:RightForeArm
+      position: {x: -0.000000004917932, y: 1.335339, z: 2.2271257e-10}
+      rotation: {x: 0.00000027710246, y: -0.00026594827, z: -0.00000029944448, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightHandIndex1
+      parentName: MEAT_:RightHand
+      position: {x: -0.0000000012074296, y: 0.45309094, z: -9.418769e-10}
+      rotation: {x: -0.0000000132632545, y: -0.6345978, z: -0.000000032939504, w: 0.7728426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightHandIndex2
+      parentName: MEAT_:RightHandIndex1
+      position: {x: -9.923365e-11, y: 0.11536326, z: 1.7012658e-10}
+      rotation: {x: -0.021187164, y: -0.00000002981492, z: -0.02819922, w: 0.9993778}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightHandIndex3
+      parentName: MEAT_:RightHandIndex2
+      position: {x: -0.007474428, y: 0.13238828, z: 0.0056286086}
+      rotation: {x: 0.10601462, y: 0.0040033334, z: 0.046801798, w: 0.9932545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:RightHandIndex4
+      parentName: MEAT_:RightHandIndex3
+      position: {x: 0.004831979, y: 0.12691015, z: -0.021822121}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftShoulder
+      parentName: MEAT_:Spine2
+      position: {x: -0.29077125, y: 0.59821045, z: 0.0046834596}
+      rotation: {x: 0.41912082, y: -0.5670308, z: 0.4046391, w: 0.5823067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftArm
+      parentName: MEAT_:LeftShoulder
+      position: {x: -8.9458226e-11, y: 0.5903058, z: 8.9817154e-10}
+      rotation: {x: 0.2038485, y: -0.037720084, z: 0.010548905, w: 0.9782187}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftForeArm
+      parentName: MEAT_:LeftArm
+      position: {x: 1.7236755e-10, y: 1.0007818, z: -0.0000000013748498}
+      rotation: {x: 0.0000013112146, y: -0.72438234, z: 0.000000947861, w: 0.68939847}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftHand
+      parentName: MEAT_:LeftForeArm
+      position: {x: 0.000000006084042, y: 1.3353443, z: -1.0851521e-10}
+      rotation: {x: 0.0000002077616, y: -0.00040472386, z: 0.00000028169848, w: 0.99999994}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftHandIndex1
+      parentName: MEAT_:LeftHand
+      position: {x: 0.0000000010837673, y: 0.49188745, z: -9.095056e-11}
+      rotation: {x: -0.00000012506551, y: 0.88287234, z: 0.00000023512314, w: 0.46961302}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftHandIndex2
+      parentName: MEAT_:LeftHandIndex1
+      position: {x: 0.0000000013562652, y: 0.105681, z: -0.000000004030086}
+      rotation: {x: -0.07196155, y: 0.00000011519418, z: -0.17781158, w: 0.9814299}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftHandIndex3
+      parentName: MEAT_:LeftHandIndex2
+      position: {x: -0.05184408, y: 0.13760714, z: 0.020987878}
+      rotation: {x: 0.08611247, y: 0.030886717, z: 0.010202603, w: 0.9957543}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:LeftHandIndex4
+      parentName: MEAT_:LeftHandIndex3
+      position: {x: -0.036757167, y: 0.10399621, z: -0.004571692}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:Neck
+      parentName: MEAT_:Spine2
+      position: {x: -0, y: 0.54755014, z: 0.000000014619815}
+      rotation: {x: 0.043873362, y: -3.215484e-20, z: 3.9199e-19, w: 0.9990371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:Head
+      parentName: MEAT_:Neck
+      position: {x: -0, y: 0.16950224, z: 0.040713757}
+      rotation: {x: 0, y: 0, z: 3.9460906e-37, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: MEAT_:HeadTop_End
+      parentName: MEAT_:Head
+      position: {x: -0, y: 0.942017, z: 0.22626863}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 20
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
