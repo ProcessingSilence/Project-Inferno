@@ -1,0 +1,915 @@
+fileFormatVersion: 2
+guid: f7d9de71c7099b34089a3de30ccfa19d
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -203655887218126122
+    second: treadingwater
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: treadingwater
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 30
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: UnrealDude:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: UnrealDude:Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Treading Water(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: group
+      parentName: Treading Water(Clone)
+      position: {x: 0.00041828156, y: 2.3606293, z: -0.07696605}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.49761614, y: 0.49761614, z: 0.49761614}
+    - name: UnrealDude1:pCube1
+      parentName: group
+      position: {x: -0.7032017, y: -6.6652994, z: 0.018670749}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.896324, y: 2.2623641, z: 2.896324}
+    - name: UnrealDude1:pCube2
+      parentName: group
+      position: {x: -0.7032017, y: -6.6652994, z: 0.018670749}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.896324, y: 2.2623641, z: 2.896324}
+    - name: group2
+      parentName: Treading Water(Clone)
+      position: {x: -0.60570145, y: 1.3271763, z: -0.04000621}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 0.5125384, y: 0.5125384, z: 0.5125384}
+    - name: UnrealDude3:polySurface26pCylinder31
+      parentName: group2
+      position: {x: -0.2384239, y: -4.8902707, z: -0.15105635}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 2.896324, y: 2.2623641, z: 2.896324}
+    - name: group3
+      parentName: Treading Water(Clone)
+      position: {x: -0.11604023, y: 3.3049998, z: -0.016294492}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1.3620924, y: 1, z: 1.3620924}
+    - name: UnrealDude4:pSphere1
+      parentName: group3
+      position: {x: 0.07049044, y: -2.8378694, z: 0.016294492}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:Hips
+      parentName: Treading Water(Clone)
+      position: {x: 0.000000013969839, y: 1.7373006, z: 0.019347304}
+      rotation: {x: 0.000000016154688, y: 0.000000002019336, z: -6.4629857e-10, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: UnrealDude:Spine
+      parentName: UnrealDude:Hips
+      position: {x: -0, y: 0.22518338, z: -0.050978158}
+      rotation: {x: -0.11108649, y: -0.0000000020584672, z: 3.7958642e-10, w: 0.9938108}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:Spine1
+      parentName: UnrealDude:Spine
+      position: {x: -0, y: 0.26936182, z: 0.0000000011817024}
+      rotation: {x: -0.00000004470348, y: -0.0000000012944569, z: 0.0000000010736757, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:Spine2
+      parentName: UnrealDude:Spine1
+      position: {x: -0, y: 0.3078422, z: -3.0917893e-10}
+      rotation: {x: -0.000000014901159, y: 0.0000000016652111, z: 5.4368826e-10, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000004}
+    - name: UnrealDude:LeftShoulder
+      parentName: UnrealDude:Spine2
+      position: {x: -0.37470594, y: 0.24126013, z: -0.027610311}
+      rotation: {x: 0.54351217, y: -0.44170305, z: 0.5849314, w: 0.40908232}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1}
+    - name: UnrealDude:LeftArm
+      parentName: UnrealDude:LeftShoulder
+      position: {x: -0.00000000209236, y: 0.78310555, z: 0.000000007487143}
+      rotation: {x: -0.13185653, y: -0.10880808, z: -0.021464998, w: 0.9850452}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000002}
+    - name: UnrealDude:LeftForeArm
+      parentName: UnrealDude:LeftArm
+      position: {x: 6.2317394e-11, y: 1.0188874, z: -0.00000000573138}
+      rotation: {x: 0.029179089, y: 0.00042443714, z: 0.0029476092, w: 0.99956983}
+      scale: {x: 1, y: 0.9999998, z: 1.0000002}
+    - name: UnrealDude:LeftHand
+      parentName: UnrealDude:LeftForeArm
+      position: {x: -7.409221e-11, y: 0.8173508, z: -0.000000003492868}
+      rotation: {x: 0.0043346686, y: 0.017387047, z: 0.047641497, w: 0.99870384}
+      scale: {x: 0.9999998, y: 1.0000004, z: 1.0000002}
+    - name: UnrealDude:LeftHandThumb1
+      parentName: UnrealDude:LeftHand
+      position: {x: 0.12954018, y: 0.08200476, z: 0.09550598}
+      rotation: {x: 0.13806638, y: 0.08756732, z: -0.3020461, w: 0.9391687}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: UnrealDude:LeftHandThumb2
+      parentName: UnrealDude:LeftHandThumb1
+      position: {x: 0.061379977, y: 0.13081922, z: -1.15539044e-10}
+      rotation: {x: 0.0057851197, y: 0.00563204, z: -0.18291314, w: 0.98309594}
+      scale: {x: 0.9999999, y: 0.9999998, z: 0.9999997}
+    - name: UnrealDude:LeftHandThumb3
+      parentName: UnrealDude:LeftHandThumb2
+      position: {x: 0.0011781519, y: 0.1884712, z: 0.0000000065938206}
+      rotation: {x: -0.02198802, y: 0.01820172, z: -0.15135115, w: 0.98806787}
+      scale: {x: 1.0000004, y: 0.99999994, z: 1.0000002}
+    - name: UnrealDude:LeftHandThumb4
+      parentName: UnrealDude:LeftHandThumb3
+      position: {x: -0.062558115, y: 0.17053916, z: -0.000000005611312}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:LeftHandMiddle1
+      parentName: UnrealDude:LeftHand
+      position: {x: 0.07889195, y: 0.24856794, z: -0.04121764}
+      rotation: {x: -0.0127280345, y: 0.009831535, z: -0.096463285, w: 0.99520665}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: UnrealDude:LeftHandMiddle2
+      parentName: UnrealDude:LeftHandMiddle1
+      position: {x: 0.007626998, y: 0.25707653, z: -3.0241887e-10}
+      rotation: {x: 0.038524024, y: 0.00092672784, z: -0.007712248, w: 0.9992275}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: UnrealDude:LeftHandMiddle3
+      parentName: UnrealDude:LeftHandMiddle2
+      position: {x: 0.00078043365, y: 0.21868005, z: -0.00000000576721}
+      rotation: {x: 0.035608895, y: -0.0021316728, z: -0.016715104, w: 0.99922377}
+      scale: {x: 0.9999999, y: 1.0000002, z: 1.0000002}
+    - name: UnrealDude:LeftHandMiddle4
+      parentName: UnrealDude:LeftHandMiddle3
+      position: {x: -0.008407433, y: 0.20968668, z: 0.0000000012834672}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:LeftHandIndex1
+      parentName: UnrealDude:LeftHand
+      position: {x: 0.20847054, y: 0.23582971, z: 0.03330015}
+      rotation: {x: -0.0018112072, y: 0.005344814, z: -0.12127545, w: 0.9926028}
+      scale: {x: 1, y: 1.0000005, z: 1.0000004}
+    - name: UnrealDude:LeftHandIndex2
+      parentName: UnrealDude:LeftHandIndex1
+      position: {x: 0.0055928607, y: 0.21453825, z: -0.000000001256446}
+      rotation: {x: 0.037998572, y: 0.0008505369, z: -0.008664943, w: 0.99923986}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000005}
+    - name: UnrealDude:LeftHandIndex3
+      parentName: UnrealDude:LeftHandIndex2
+      position: {x: -0.00019403113, y: 0.19613643, z: 0.0000000033325738}
+      rotation: {x: 0.037049346, y: -0.0013769064, z: -0.010183841, w: 0.9992606}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+    - name: UnrealDude:LeftHandIndex4
+      parentName: UnrealDude:LeftHandIndex3
+      position: {x: -0.005398833, y: 0.18101837, z: 0.000000002719918}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:LeftHandPinky1
+      parentName: UnrealDude:LeftHand
+      position: {x: -0.19960499, y: 0.22750573, z: 0.062058166}
+      rotation: {x: -0.07559497, y: -0.01878771, z: -0.06187488, w: 0.9950397}
+      scale: {x: 0.99999964, y: 0.99999994, z: 1.0000001}
+    - name: UnrealDude:LeftHandPinky2
+      parentName: UnrealDude:LeftHandPinky1
+      position: {x: 0.0060902224, y: 0.20345145, z: -0.0000000039414325}
+      rotation: {x: 0.039451133, y: 0.00048172806, z: -0.0055114836, w: 0.9992062}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: UnrealDude:LeftHandPinky3
+      parentName: UnrealDude:LeftHandPinky2
+      position: {x: 0.0006463654, y: 0.17437536, z: -0.000000002268682}
+      rotation: {x: 0.036616515, y: -0.0017847562, z: -0.016773734, w: 0.9991871}
+      scale: {x: 1, y: 1.0000001, z: 1}
+    - name: UnrealDude:LeftHandPinky4
+      parentName: UnrealDude:LeftHandPinky3
+      position: {x: -0.0067365854, y: 0.15446596, z: 0.0000000022859703}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:LeftHandRing1
+      parentName: UnrealDude:LeftHand
+      position: {x: -0.08775752, y: 0.27824414, z: -0.049301386}
+      rotation: {x: -0.023767961, y: 0.009120704, z: -0.08480599, w: 0.99607223}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1.0000001}
+    - name: UnrealDude:LeftHandRing2
+      parentName: UnrealDude:LeftHandRing1
+      position: {x: 0.0063007404, y: 0.22525744, z: -3.036782e-10}
+      rotation: {x: 0.038655538, y: 0.00074692204, z: -0.0076904264, w: 0.9992228}
+      scale: {x: 1, y: 1.0000004, z: 1.0000002}
+    - name: UnrealDude:LeftHandRing3
+      parentName: UnrealDude:LeftHandRing2
+      position: {x: 0.00021154068, y: 0.20591839, z: -4.1064377e-10}
+      rotation: {x: 0.037111115, y: -0.0013944773, z: -0.012127992, w: 0.9992366}
+      scale: {x: 0.99999976, y: 1.0000005, z: 1.0000002}
+    - name: UnrealDude:LeftHandRing4
+      parentName: UnrealDude:LeftHandRing3
+      position: {x: -0.0065122778, y: 0.19239548, z: 0.0000000036822843}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:RightShoulder
+      parentName: UnrealDude:Spine2
+      position: {x: 0.37470594, y: 0.23961233, z: -0.020331707}
+      rotation: {x: -0.5500512, y: -0.43647, z: 0.58060145, w: -0.41211596}
+      scale: {x: 1.0000007, y: 1.0000007, z: 1.0000005}
+    - name: UnrealDude:RightArm
+      parentName: UnrealDude:RightShoulder
+      position: {x: 0.0000000019474278, y: 0.78310555, z: 0.000000009622565}
+      rotation: {x: 0.13340254, y: -0.1312524, z: -0.0073083043, w: -0.98230505}
+      scale: {x: 1, y: 1.0000005, z: 1}
+    - name: UnrealDude:RightForeArm
+      parentName: UnrealDude:RightArm
+      position: {x: -6.6822825e-11, y: 1.0190624, z: 0.000000009029575}
+      rotation: {x: 0.029113237, y: 0.0005257278, z: 0.0036258805, w: 0.9995695}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000007}
+    - name: UnrealDude:RightHand
+      parentName: UnrealDude:RightForeArm
+      position: {x: 1.76315e-10, y: 0.8173171, z: -0.0000000026271074}
+      rotation: {x: -0.018698135, y: 0.026130877, z: 0.07561899, w: -0.996619}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.9999998}
+    - name: UnrealDude:RightHandThumb1
+      parentName: UnrealDude:RightHand
+      position: {x: -0.12061878, y: 0.0609381, z: 0.07128288}
+      rotation: {x: -0.110055536, y: 0.08611199, z: -0.28786933, w: -0.9474196}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000004}
+    - name: UnrealDude:RightHandThumb2
+      parentName: UnrealDude:RightHandThumb1
+      position: {x: -0.05729676, y: 0.10796743, z: 0.0000000051351114}
+      rotation: {x: 0.015071943, y: -0.017104134, z: 0.19051322, w: 0.9814199}
+      scale: {x: 1, y: 0.99999946, z: 0.9999998}
+    - name: UnrealDude:RightHandThumb3
+      parentName: UnrealDude:RightHandThumb2
+      position: {x: -0.0088390475, y: 0.2002671, z: -0.000000003946364}
+      rotation: {x: -0.01995915, y: -0.014569976, z: 0.15694056, w: 0.9872989}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:RightHandThumb4
+      parentName: UnrealDude:RightHandThumb3
+      position: {x: 0.066135794, y: 0.19583663, z: 0.000000005142357}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:RightHandIndex1
+      parentName: UnrealDude:RightHand
+      position: {x: -0.21007715, y: 0.21856056, z: 0.035776116}
+      rotation: {x: -0.016513236, y: -0.004165922, z: 0.12562634, w: 0.9919315}
+      scale: {x: 0.9999998, y: 1, z: 1.0000001}
+    - name: UnrealDude:RightHandIndex2
+      parentName: UnrealDude:RightHandIndex1
+      position: {x: -0.0054495917, y: 0.22077267, z: 1.8382072e-10}
+      rotation: {x: 0.037158605, y: -0.0010031578, z: 0.009280379, w: 0.9992658}
+      scale: {x: 0.99999994, y: 1.0000004, z: 1.0000005}
+    - name: UnrealDude:RightHandIndex3
+      parentName: UnrealDude:RightHandIndex2
+      position: {x: 0.00034289685, y: 0.19346958, z: -0.0000000017462238}
+      rotation: {x: -0.036482226, y: -0.0015580812, z: -0.009859951, w: -0.99928445}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000002}
+    - name: UnrealDude:RightHandIndex4
+      parentName: UnrealDude:RightHandIndex3
+      position: {x: 0.0051066913, y: 0.1791856, z: -0.0000000020972695}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:RightHandMiddle1
+      parentName: UnrealDude:RightHand
+      position: {x: -0.06809721, y: 0.23160267, z: -0.047088865}
+      rotation: {x: -0.021702448, y: -0.0057757613, z: 0.10093564, w: 0.99463946}
+      scale: {x: 0.9999998, y: 1.0000001, z: 1.0000002}
+    - name: UnrealDude:RightHandMiddle2
+      parentName: UnrealDude:RightHandMiddle1
+      position: {x: -0.007146835, y: 0.24733284, z: -7.765788e-12}
+      rotation: {x: 0.037782937, y: -0.00111854, z: 0.008948028, w: 0.99924535}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: UnrealDude:RightHandMiddle3
+      parentName: UnrealDude:RightHandMiddle2
+      position: {x: -0.0004109761, y: 0.2383486, z: -0.0000000036364685}
+      rotation: {x: 0.035629958, y: 0.0019216758, z: 0.013728515, w: 0.99926895}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
+    - name: UnrealDude:RightHandMiddle4
+      parentName: UnrealDude:RightHandMiddle3
+      position: {x: 0.0075578135, y: 0.22250722, z: -0.00000000984422}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:RightHandPinky1
+      parentName: UnrealDude:RightHand
+      position: {x: 0.19620018, y: 0.23577783, z: 0.05087433}
+      rotation: {x: -0.080324404, y: 0.0124588, z: 0.056505766, w: 0.99508786}
+      scale: {x: 0.9999997, y: 1.0000002, z: 1.0000002}
+    - name: UnrealDude:RightHandPinky2
+      parentName: UnrealDude:RightHandPinky1
+      position: {x: -0.004216886, y: 0.21077529, z: -6.2504996e-10}
+      rotation: {x: 0.04024456, y: -0.00014410072, z: 0.002482675, w: 0.9991868}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000005}
+    - name: UnrealDude:RightHandPinky3
+      parentName: UnrealDude:RightHandPinky2
+      position: {x: -0.00011714773, y: 0.17106079, z: -7.707983e-10}
+      rotation: {x: 0.03860636, y: 0.00070079975, z: 0.008213105, w: 0.99922055}
+      scale: {x: 1, y: 1.0000002, z: 0.9999998}
+    - name: UnrealDude:RightHandPinky4
+      parentName: UnrealDude:RightHandPinky3
+      position: {x: 0.0043340432, y: 0.15353383, z: 9.014485e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:RightHandRing1
+      parentName: UnrealDude:RightHand
+      position: {x: 0.08197418, y: 0.25510243, z: -0.038936477}
+      rotation: {x: -0.037677318, y: -0.0039439863, z: 0.07417405, w: 0.9965256}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000001}
+    - name: UnrealDude:RightHandRing2
+      parentName: UnrealDude:RightHandRing1
+      position: {x: -0.0070350375, y: 0.23640177, z: -0.0000000011218457}
+      rotation: {x: 0.03764021, y: -0.0010782235, z: 0.010151955, w: 0.99923927}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.99999994}
+    - name: UnrealDude:RightHandRing3
+      parentName: UnrealDude:RightHandRing2
+      position: {x: 0.00017359879, y: 0.21116714, z: -9.275477e-10}
+      rotation: {x: 0.037076984, y: 0.00150037, z: 0.01151171, w: 0.9992449}
+      scale: {x: 1, y: 1.0000002, z: 0.99999994}
+    - name: UnrealDude:RightHandRing4
+      parentName: UnrealDude:RightHandRing3
+      position: {x: 0.0068614404, y: 0.20367514, z: -0.000000004571203}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:Neck
+      parentName: UnrealDude:Spine2
+      position: {x: -0, y: 0.34632233, z: 0.000000035501525}
+      rotation: {x: 0.11108652, y: -5.682923e-10, z: -0.0000000015277767, w: 0.9938108}
+      scale: {x: 1.0000001, y: 0.99999994, z: 0.9999999}
+    - name: UnrealDude:Head
+      parentName: UnrealDude:Neck
+      position: {x: -0, y: 0.31688634, z: -0.045723263}
+      rotation: {x: 0.000000029802319, y: -0.0000000042734, z: -5.5511145e-17, w: 1}
+      scale: {x: 0.99999994, y: 1, z: 1.0000001}
+    - name: UnrealDude:HeadTop_End
+      parentName: UnrealDude:Head
+      position: {x: -0, y: 1.1031263, z: -0.15916914}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:LeftUpLeg
+      parentName: UnrealDude:Hips
+      position: {x: -0.43324673, y: -0.1251018, z: -0.014169127}
+      rotation: {x: -0.000000038427252, y: -0.006252892, z: 0.99998045, w: 0.000000009454383}
+      scale: {x: 1, y: 1.0000001, z: 0.9999999}
+    - name: UnrealDude:LeftLeg
+      parentName: UnrealDude:LeftUpLeg
+      position: {x: -0, y: 0.8933755, z: -5.4972327e-10}
+      rotation: {x: -0.18158719, y: 0.38071612, z: 0.04477185, w: 0.905581}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000001}
+    - name: UnrealDude:LeftFoot
+      parentName: UnrealDude:LeftLeg
+      position: {x: -0.000000004835125, y: 0.6914251, z: 0.00000001864308}
+      rotation: {x: 0.7542881, y: -0.082060374, z: 0.270064, w: 0.5927741}
+      scale: {x: 1.000001, y: 1.0000006, z: 1.0000004}
+    - name: UnrealDude:LeftToeBase
+      parentName: UnrealDude:LeftFoot
+      position: {x: 0.0000000031406866, y: 0.39299223, z: 0.0000000011080773}
+      rotation: {x: 0.2825253, y: -0.6902921, z: 0.57233006, w: 0.34075603}
+      scale: {x: 0.9999998, y: 1.0000005, z: 1.0000002}
+    - name: UnrealDude:LeftToe_End
+      parentName: UnrealDude:LeftToeBase
+      position: {x: 3.1901254e-10, y: 0.081020296, z: -0.0000000010566819}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: UnrealDude:RightUpLeg
+      parentName: UnrealDude:Hips
+      position: {x: 0.43324673, y: -0.1251018, z: -0.024525512}
+      rotation: {x: -0.000000003209415, y: -0.008184646, z: 0.9999665, w: 0.000000022029406}
+      scale: {x: 1.0000004, y: 1.0000005, z: 1}
+    - name: UnrealDude:RightLeg
+      parentName: UnrealDude:RightUpLeg
+      position: {x: -0, y: 0.89342535, z: -0.0000000010365063}
+      rotation: {x: -0.17948672, y: -0.38597947, z: -0.045665804, w: 0.90372515}
+      scale: {x: 1.0000005, y: 0.9999999, z: 1.0000005}
+    - name: UnrealDude:RightFoot
+      parentName: UnrealDude:RightLeg
+      position: {x: -0.000000010057469, y: 0.68981767, z: 0.000000019421567}
+      rotation: {x: 0.74778605, y: 0.092928015, z: -0.28932688, w: 0.5903138}
+      scale: {x: 1.0000002, y: 1.0000002, z: 1.0000002}
+    - name: UnrealDude:RightToeBase
+      parentName: UnrealDude:RightFoot
+      position: {x: 0.000000010043324, y: 0.43109474, z: -0.0000000012123792}
+      rotation: {x: -0.31087252, y: -0.56531745, z: 0.7245267, w: -0.24256057}
+      scale: {x: 0.9999997, y: 1, z: 1.0000001}
+    - name: UnrealDude:RightToe_End
+      parentName: UnrealDude:RightToeBase
+      position: {x: 9.249997e-11, y: 0.07239714, z: -1.7372838e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 30
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
