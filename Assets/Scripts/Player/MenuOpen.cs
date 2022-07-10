@@ -26,7 +26,7 @@ public class MenuOpen : MonoBehaviour
         }
         DontDestroyOnLoad(gameObject);
         mouseSpeedSlider = GlobalVars.mouseSpeedSlider;
-        gameObject.AddComponent<GetAspectRatio>();
+        // gameObject.AddComponent<GetAspectRatio>();
     }
 
     // Start is called before the first frame update
