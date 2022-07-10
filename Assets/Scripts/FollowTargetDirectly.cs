@@ -1,16 +1,28 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Serialization;
 
 public class FollowTargetDirectly : MonoBehaviour
 {
-    public Transform player;
+    [FormerlySerializedAs("player")] [SerializeField] private Transform target;
+    [SerializeField] private bool lockX, lockY, lockZ;
+    [SerializeField] private Vector3 offset;
 
-    public Vector3 offset;
+    private Vector3 lockedPos;
 
-    // Update is called once per frame
-    void FixedUpdate()
+    private void Awake()
     {
-        transform.position = player.position + offset;
+        lockedPos = transform.position;
+    }
+
+    private void FixedUpdate()
+    {
+        Vector3 currentPos = target.position + offset;
+        Vector3 setPos = new Vector3
+        (
+            lockX ? lockedPos.x : currentPos.x,
+            lockY ? lockedPos.y : currentPos.y,
+            lockZ ? lockedPos.z : currentPos.z
+        );
+        transform.position = setPos;
     }
 }
