@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f624bda8a65b9dc4d9a5e273424aaa55, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5534,6 +5534,10 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9da3fe2c760d02e48b28b38bf0552a26, type: 2}
+    - target: {fileID: -8034384500538529868, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: -7729143482605955429, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5541,6 +5545,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
       propertyPath: m_Name
       value: Treading Water
+      objectReference: {fileID: 0}
+    - target: {fileID: 1531980475689831612, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2041161689802602789, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
       propertyPath: m_Materials.Array.data[0]
