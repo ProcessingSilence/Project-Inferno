@@ -8,11 +8,11 @@ public class ScoringSystem : MonoBehaviour
 {
     public Timer timerScript;
     public bool calculateScore;
-    
+
     public float parTime;
     private float timeLimit, maxTimeLimit;
     public float currentTime;
-    
+
     public float timeScore;
 
     public float killScore;
@@ -21,7 +21,7 @@ public class ScoringSystem : MonoBehaviour
 
     public int targetsCount;
     public int aliveEnemies;
-    
+
     [HideInInspector]public string[] grade = {"S","A", "B", "C", "D", "F"};
 
     public string finalGradeLetter;
@@ -90,11 +90,11 @@ public class ScoringSystem : MonoBehaviour
                 timeScore = 0;
             }
             */
-            Debug.Log("ENEMIES ALIVE:  " + GameObject.FindGameObjectsWithTag("Enemy").Length);
+            // Debug.Log("ENEMIES ALIVE:  " + GameObject.FindGameObjectsWithTag("Enemy").Length);
 
             if (targetsCount > 0)
             {
-                aliveEnemies = GameObject.FindGameObjectsWithTag("Enemy").Length;            
+                aliveEnemies = GameObject.FindGameObjectsWithTag("Enemy").Length;
                 killScore = (((float)aliveEnemies / targetsCount) * 75);
             }
 

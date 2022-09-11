@@ -24,7 +24,7 @@ public class MenuOpen : MonoBehaviour
                 Destroy(gameObject);
             }
         }
-        DontDestroyOnLoad(gameObject);
+        // DontDestroyOnLoad(gameObject);
         mouseSpeedSlider = GlobalVars.mouseSpeedSlider;
         // gameObject.AddComponent<GetAspectRatio>();
     }

@@ -1135,7 +1135,7 @@ MeshRenderer:
   m_GameObject: {fileID: 8497178425331135688}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -1276,7 +1276,7 @@ MeshRenderer:
   m_GameObject: {fileID: 8497178426199131096}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -1486,6 +1486,8 @@ MonoBehaviour:
   dontDestroyOnDeath: 0
   specialDamageParticle: {fileID: 0}
   specialDeathParticle: {fileID: 2949699621626574268, guid: c37d4d7f4d4ff434596529631a2d51a3, type: 3}
+  noDamageParticle: 0
+  noDeathParticle: 0
 --- !u!198 &8497178426203729011
 ParticleSystem:
   m_ObjectHideFlags: 0

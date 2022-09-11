@@ -49,7 +49,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1728929801622014716}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -130,7 +130,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1728929802611049373}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -220,7 +220,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1728929802692360793}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -295,13 +295,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animator: {fileID: 0}
   health: 1
+  previousHealth: 0
   maxHealth: 0
   currentState: 0
   targetSound: {fileID: 8300000, guid: b7748b67ebda1c042a0ba2383d377fbd, type: 3}
+  soundPitch: 0
   myTracker: {fileID: 0}
   dontDestroyOnDeath: 0
   specialDamageParticle: {fileID: 1846328998336193539, guid: 27e423f01e07fca40b3a9df3f256784f, type: 3}
   specialDeathParticle: {fileID: 1846328998336193539, guid: 27e423f01e07fca40b3a9df3f256784f, type: 3}
+  noDamageParticle: 0
+  noDeathParticle: 0
 --- !u!1 &1728929802777326196
 GameObject:
   m_ObjectHideFlags: 0
@@ -351,7 +355,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1728929802777326196}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -432,7 +436,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1728929802810309769}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -513,7 +517,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1728929803033193497}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -594,7 +598,7 @@ MeshRenderer:
   m_GameObject: {fileID: 1728929803321304503}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1

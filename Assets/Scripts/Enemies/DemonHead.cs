@@ -75,14 +75,14 @@ public class DemonHead : EnemyStats
         if (EnemySight())
         {
             yield return new WaitForSecondsRealtime(delayBeforeFire);
-            Debug.Log("FIRE");
+            // Debug.Log("FIRE");
             var playerPos = GlobalVars.mainPlayer.transform.position;
             playerPos = new Vector3(playerPos.x, playerPos.y +0.3f, playerPos.z);
-        
+
             // Randomly instantiate at either two eye positions.
             Instantiate(enemyProj, eyeFirePositions[GlobalVars.RandNumTable() % 2].position,
                 Quaternion.LookRotation(playerPos));
-        
+
             GlobalVars.PlaySoundObj(transform.position, fireSound, 0.4f, true, 80f, UnityEngine.Random.Range(0.8f,1f));
             yield return new WaitForSecondsRealtime(fireRate * Random.Range(0.8f, 1.2f));
         }
@@ -93,13 +93,13 @@ public class DemonHead : EnemyStats
         {
             aiState = AiStateEnum.See;
         }
-        firingProcess = null;  
+        firingProcess = null;
     }
 
     IEnumerator GiantHeadDeathProcess()
     {
         var explosion = Resources.Load("Explosion") as GameObject;
-        
+
         GlobalVars.PlaySoundObj(transform.position, myState.targetSound, 1, false, 80f, soundPitch);
         yield return new WaitForSecondsRealtime(0.15f);
         Instantiate(explosion, RandomPositionOffset(), Quaternion.identity);
@@ -123,8 +123,8 @@ public class DemonHead : EnemyStats
         explosionScript.eP.minParticleSize = 1;
         explosionScript.eP.pitch = 0.7f;
         bigExplosion.SetActive(true);
-        
-        
+
+
         yield return new WaitForSecondsRealtime(0.1f);
         Destroy(gameObject);
     }

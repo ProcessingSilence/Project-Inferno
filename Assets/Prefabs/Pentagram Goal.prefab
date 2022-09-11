@@ -67,6 +67,7 @@ MonoBehaviour:
     explosionParticles: {fileID: 2949699621626574268, guid: bae35e5ba85e3b24caf1593c45621332, type: 3}
     explosionSound: {fileID: 8300000, guid: 0a7a746bb061c514ba4ed4818e314824, type: 3}
     shotFromWho: {fileID: 0}
+    pitch: 0
   goalLight: {fileID: 2773709337337661208}
 --- !u!1 &2773709336851259340
 GameObject:
@@ -304,7 +305,7 @@ MeshRenderer:
   m_GameObject: {fileID: 2773709337726724341}
   m_Enabled: 1
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1

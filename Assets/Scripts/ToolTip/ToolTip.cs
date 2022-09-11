@@ -14,7 +14,7 @@ public class ToolTip : MonoBehaviour
     public float fadeAmount;
 
     public bool dontDestroy;
-    
+
     // Start is called before the first frame update
     protected virtual void Awake()
     {
@@ -31,12 +31,12 @@ public class ToolTip : MonoBehaviour
     {
         for (int i = 0; i < 10; i++)
         {
-            Debug.Log("FADE");
+            // Debug.Log("FADE");
             yield return new WaitForSecondsRealtime(0.1f);
             text.color += new Color(0, 0, 0, fadeAmount);
         }
     }
-    
+
     public IEnumerator WaitBeforeFade()
     {
         if (dontDestroy == false)

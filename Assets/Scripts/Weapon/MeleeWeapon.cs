@@ -34,7 +34,7 @@ public class MeleeWeapon : WeaponStats
     {
         Neutral,
         Throwing,
-        Hitting,        
+        Hitting,
         HasHit
     }
 
@@ -49,7 +49,7 @@ public class MeleeWeapon : WeaponStats
         ammoText.text = "Infinite";
         playerStateScript = GlobalVars.mainPlayerState;
         playerTransform = GlobalVars.mainPlayer.transform;
-        
+
     }
 
     // Update is called once per frame
@@ -110,7 +110,7 @@ public class MeleeWeapon : WeaponStats
 
     protected virtual void DetermineFate(Collider other)
     {
-        Debug.Log("ENEMY");
+        // Debug.Log("ENEMY");
         if (multipleCollision)
         {
             MultiCol_DetermineToHurt(other);
@@ -120,7 +120,7 @@ public class MeleeWeapon : WeaponStats
         {
             SingleCol_DetermineToHurt();
         }
-        
+
     }
 
     // Everyone in the collider gets hit, unless if they're behind cover.
@@ -138,7 +138,7 @@ public class MeleeWeapon : WeaponStats
                     if (other.gameObject == hitObj.gameObject)
                     {
                         hasBeenAttacked = true;
-                        Debug.Log("HAS ALREADY BEEN ATTACKED.");
+                        // Debug.Log("HAS ALREADY BEEN ATTACKED.");
                     }
                 }
             }
@@ -146,32 +146,32 @@ public class MeleeWeapon : WeaponStats
 
         if (hasBeenAttacked == false)
         {
-            // Send a raycast out from the melee weapon to the enemy, if it doesn't detect a wall, apply damage.                      
+            // Send a raycast out from the melee weapon to the enemy, if it doesn't detect a wall, apply damage.
             if (!Physics.Raycast(transform.position, other.transform.position, out var hit, Mathf.Infinity, 7))
             {
 
                 alreadyAttacked.Add(other);
                 other.GetComponent<PlayerState>().health -= damage;
-                GlobalVars.PlaySoundObj(transform.position, hitSound);               
+                GlobalVars.PlaySoundObj(transform.position, hitSound);
             }
             else
             {
-                Debug.Log("Melee victim behind cover.");
+                // Debug.Log("Melee victim behind cover.");
             }
         }
     }
-    
+
     //new Vector3(playerTransform.position.x, transform.position.y, playerTransform.position.z);
 
     // Only attack the closest victim in the collider that's not behind cover, and ignore everything else.
     protected virtual void SingleCol_DetermineToHurt()
     {
         Collider[] objectsInRange = Physics.OverlapBox(transform.position, collider.bounds.size * 0.5f, Quaternion.identity);
-        
-        Debug.Log("objects in range: " + objectsInRange.Length);
-        
+
+        // Debug.Log("objects in range: " + objectsInRange.Length);
+
         List<HurtVictim> victimList = new List<HurtVictim>();
-        
+
         // Get all the objects and their properties as long as they have an "Enemy" tag.
         for (int i = 0; i < objectsInRange.Length; i++)
         {
@@ -183,16 +183,16 @@ public class MeleeWeapon : WeaponStats
                     meleeState = MeleeStates.HasHit;
                     // Victim confirmed, add to victim list to have their distance compared
                     victimList.Add(new HurtVictim());
-                    
+
                     victimList[victimList.Count-1].distanceFromAttack =
                         Vector3.Distance(transform.position, objectsInRange[i].transform.position);
 
-                    victimList[victimList.Count-1].victimObj = objectsInRange[i].gameObject;                    
+                    victimList[victimList.Count-1].victimObj = objectsInRange[i].gameObject;
                 }
-            }            
+            }
         }
 
-        Debug.Log("Victim list count: " + victimList.Count);
+        // Debug.Log("Victim list count: " + victimList.Count);
 
         // Compare victims to see who is the closest to the attack.
         if (victimList.Count > 0)
@@ -200,7 +200,7 @@ public class MeleeWeapon : WeaponStats
             meleeState = MeleeStates.HasHit;
             HurtVictim chosenVictim = new HurtVictim();
             chosenVictim.distanceFromAttack = float.MaxValue;
-            
+
             // If there's only 1 victim, choose the first victim in list.
             if (victimList.Count == 1)
             {
@@ -216,7 +216,7 @@ public class MeleeWeapon : WeaponStats
                     {
                         chosenVictim = victimList[i];
                     }
-                }    
+                }
             }
 
             chosenVictim.victimObj.GetComponent<PlayerState>().health -= damage;

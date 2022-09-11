@@ -37,23 +37,23 @@ public class GruntEnemy : PathfindingEnemy
             }
         }
     }
-    
-        
+
+
     IEnumerator FireAtPlayer()
     {
         navMeshAgent.speed = 0;
         GetComponent<Rigidbody>().velocity = Vector3.zero;
         yield return new WaitForSecondsRealtime(0.7f);
-        Debug.Log("FIRE");
+        // Debug.Log("FIRE");
         var playerPos = GlobalVars.mainPlayer.transform.position;
         playerPos = new Vector3(playerPos.x, playerPos.y +0.3f, playerPos.z);
         Instantiate(enemyProj, firePos.position,
             Quaternion.LookRotation(playerPos));
-        
+
         GlobalVars.PlaySoundObj(transform.position, fireSound, 0.5f, true);
         yield return new WaitForSecondsRealtime(0.5f);
         EndAttackProcess();
         aiState = AiStateEnum.See;
-        firingProcess = null;    
+        firingProcess = null;
     }
 }

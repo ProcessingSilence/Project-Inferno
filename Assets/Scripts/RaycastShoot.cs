@@ -41,14 +41,14 @@ public class RaycastShoot : MonoBehaviour
         }
 
         /*
-        // Get the direction of where the camera is pointing based on center of screen, tell equipped weapon they can fire. 
+        // Get the direction of where the camera is pointing based on center of screen, tell equipped weapon they can fire.
         if (Input.GetButtonDown("Fire1"))
         {
 
             //equippedWeaponScript.weaponScript.fire = true;
             //if (Physics.Raycast(camTransform.position, camTransform.forward, out currentHit, 3000f, allowedToHit))
-        } 
-        */       
+        }
+        */
     }
 
     // Get the direction of where the camera is pointing based on center of screen,
@@ -63,13 +63,13 @@ public class RaycastShoot : MonoBehaviour
 
         RaycastHit[] allHits = Physics.RaycastAll(ray, Mathf.Infinity, allowedToHit);
         RaycastHit hit = default(RaycastHit);
-        
+
         float leastDist = float.MaxValue;
         if (allHits.Length > 0)
         {
             for (int i = 0; i < allHits.Length; i++)
             {
-                Debug.Log(allHits[i].collider.name, allHits[i].collider);
+                // Debug.Log(allHits[i].collider.name, allHits[i].collider);
                 // Compare all colliders and get the least distance, prevent it from hitting shooting player.
                 if (allHits[i].distance < leastDist && allHits[i].collider != ownerCollider)
                 {
@@ -78,10 +78,10 @@ public class RaycastShoot : MonoBehaviour
                 }
             }
 
-            Debug.Log("Raycasted object: " + hit.collider.gameObject);
+            // Debug.Log("Raycasted object: " + hit.collider.gameObject);
             return hit.point;
-        }      
-        
+        }
+
         //var ray = myCamera.ScreenPointToRay(screenCenter);
         return ray.GetPoint(50);
     }

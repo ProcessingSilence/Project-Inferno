@@ -9,10 +9,10 @@ using Vector3 = UnityEngine.Vector3;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField]private LayerMask platformLayerMask;
-    
+
 // Jump
     public float jumpVel;
-    
+
     // Gravity multiplier depending if input is held or not.
     public float inputGravityWeight = 2.5f;
     public float noInputGravityWeight = 2f;
@@ -20,12 +20,12 @@ public class PlayerController : MonoBehaviour
     // Gets y position of player when they are no longer grounded.
         // If the player's y-position >= yPosLimit, they will start falling
     private float yPosLimit;
-    
+
     // Flag that determines what happens midair when not grounded.
         // 0- Currently falling
         // Have jumped: 1-  Going up, did not touch height limit. 2- Touched height limit, switch to 0.
     private int iJumpedFlag;
-    
+
     // When pressing jump input, waits [input time] before seeing if player lands on ground, if the player lands on
     // the ground within that time period, they will automatically jump.
     private float jumpPressedPeriodCurrent;
@@ -38,9 +38,9 @@ public class PlayerController : MonoBehaviour
 
     private AudioClip jumpSound;
 
-// Movement 
+// Movement
     public float moveSpeed = 13;
-    [HideInInspector]public float maxSpeed; 
+    [HideInInspector]public float maxSpeed;
     private Vector3 surfaceNormal;
 
     private float turnSmoothTime = 0.1f;
@@ -58,7 +58,7 @@ public class PlayerController : MonoBehaviour
 
 //Pushed Force
     public Vector3 currentForceDirection;
-                   
+
 // Components
     private Rigidbody rb;
     private BoxCollider boxCollider;
@@ -68,7 +68,7 @@ public class PlayerController : MonoBehaviour
     private PlayerState playerStateScript;
 
     public GameObject model;
-    
+
 // Animator Stuff
     [SerializeField] private Animator animator;
 
@@ -87,8 +87,8 @@ public class PlayerController : MonoBehaviour
         moveSpeed = 0;
         //Physics.IgnoreLayerCollision(13,13, true);
     }
-      
-        
+
+
     private void FixedUpdate()
     {
         Vector3 angle = Vector3.zero;
@@ -96,7 +96,7 @@ public class PlayerController : MonoBehaviour
         if (Physics.Raycast(boxCollider.bounds.center, Vector3.down, out hit, (boxCollider.size.y/2) + 5, platformLayerMask))
         {
             angle = hit.normal;
-            Debug.Log("angle: " + angle);
+            // Debug.Log("angle: " + angle);
             if (angle.y < 1 && alreadyJumped == false)
             {
                 //transform.position = hit.point + (-Vector3.down * (capsuleCollider.size.y / 2));
@@ -105,16 +105,16 @@ public class PlayerController : MonoBehaviour
 
             //if (hit.transform.eulerAngles. > 0.1f)
         }
-        
+
         Gravity();
         //SnapToFloor();
-        Debug.Log("ISGROUNDED: " + IsGrounded());
+        // Debug.Log("ISGROUNDED: " + IsGrounded());
 
-        
+
         //HorizontalMovement();
         horizontal = (int)Input.GetAxisRaw("Horizontal");
         vertical = (int)Input.GetAxisRaw("Vertical");
-        
+
         var tempSpeed = moveSpeed;
         Vector3 direction = Vector3.zero;
 
@@ -125,21 +125,21 @@ public class PlayerController : MonoBehaviour
             prevVertical = vertical;
             direction = new Vector3(horizontal, 0f, vertical).normalized;
         }
-        
+
         else if (horizontal == 0 && vertical == 0 && IsGrounded())
         {
-            tempSpeed -= (maxSpeed*5f) * Time.deltaTime;                
+            tempSpeed -= (maxSpeed*5f) * Time.deltaTime;
             direction = new Vector3(prevHorizontal, 0f, prevVertical).normalized;
 
-            movementVelocity -= new Vector3(movementVelocity.x/5, 0, movementVelocity.z/5);                
+            movementVelocity -= new Vector3(movementVelocity.x/5, 0, movementVelocity.z/5);
         }
-         
-        
+
+
         // Regulate speed amount.
         if (tempSpeed > maxSpeed)
         {
             tempSpeed = maxSpeed;
-        }            
+        }
         if (tempSpeed < 0)
         {
             tempSpeed = 0;
@@ -147,14 +147,14 @@ public class PlayerController : MonoBehaviour
 
         moveSpeed = tempSpeed;
 
-        
+
 
         Vector3 finalDirection = Vector3.zero;
 
         if (direction.magnitude >= 0.1f)
         {
             float targetAngle = Mathf.Atan2(direction.x, direction.z) * Mathf.Rad2Deg + cameraPos.eulerAngles.y;
-        
+
             //float angle = Mathf.SmoothDampAngle(transform.eulerAngles.y, targetAngle, ref turnSmoothVelocity, turnSmoothTime);
 
             /*
@@ -163,9 +163,9 @@ public class PlayerController : MonoBehaviour
                 //model.transform.rotation = Quaternion.Euler(0f, angle, 0f);
             }
             */
-            
+
             Vector3 moveDir = Quaternion.Euler(0f, targetAngle, 0f) * Vector3.forward;
-        
+
             finalDirection = new Vector3(moveDir.x, 0, moveDir.z);
             //finalDirection = Quaternion.FromToRotation(moveDir, Quaternion.LookRotation(moveDir, surfaceNormal) * Vector3.forward) * Vector3.forward;
         }
@@ -183,7 +183,7 @@ public class PlayerController : MonoBehaviour
         movementVelocity = Vector3.ClampMagnitude(movementVelocity, maxSpeed);
 
         Vector3 finalMovementVelocity = Vector3.ProjectOnPlane(movementVelocity, surfaceNormal);
-        
+
         rb.velocity = new Vector3(finalMovementVelocity.x, rb.velocity.y, finalMovementVelocity.z);
 
 
@@ -222,12 +222,12 @@ public class PlayerController : MonoBehaviour
         var movement = new Vector3(horizontal, 0f, vertical);
         float velocityZ = Vector3.Dot(movement.normalized, transform.forward);
         float velocityX = Vector3.Dot(movement.normalized, transform.right);
-        
+
         animator.SetFloat("VelocityZ", vertical, 0.1f, Time.deltaTime);
         animator.SetFloat("VelocityX", horizontal, 0.1f, Time.deltaTime);
-        
+
         animator.SetBool("jumpBool", !IsGrounded());
-        
+
         // For debugging purposes.
         isGroundedThing = IsGrounded();
     }
@@ -243,7 +243,7 @@ public class PlayerController : MonoBehaviour
             {
                 rb.velocity += Vector3.up * Physics.gravity.y * (inputGravityWeight - 1) * Time.deltaTime;
             }
-            
+
             else if (rb.velocity.y > 0)
             {
                 rb.velocity += Vector3.up * Physics.gravity.y * (noInputGravityWeight - 1 ) * Time.deltaTime;
@@ -254,7 +254,7 @@ public class PlayerController : MonoBehaviour
             }
         }
     }
-    
+
     void Jump()
     {
         //rb.velocity = new Vector3(rb.velocity.x, 0);
@@ -273,17 +273,17 @@ public class PlayerController : MonoBehaviour
         rb.velocity = Vector3.up * jumpVel * 1.75f;
     }
     */
-    
+
     void JumpingInput()
     {
         jumpPressedPeriodCurrent -= Time.deltaTime;
-        
+
         // Reset timer on jump.
         if (Input.GetKeyDown(KeyCode.Space))
         {
             jumpPressedPeriodCurrent = jumpPressedPeriodTime;
         }
-        
+
         if (jumpPressedPeriodCurrent > 0)
         {
             if (rb.velocity.y <= 0.01f && IsGrounded())
@@ -310,7 +310,7 @@ public class PlayerController : MonoBehaviour
                 chosenSprite = 2;
             }
         }
-        */        
+        */
     }
 
     void CoyoteTime()
@@ -328,11 +328,11 @@ public class PlayerController : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             inputDirection = 1;
-        }     
+        }
         else if (Input.GetKey(KeyCode.A))
         {
             inputDirection = -1;
-        }    
+        }
         else
         {
             inputDirection = 0;
@@ -363,7 +363,7 @@ public class PlayerController : MonoBehaviour
                 {
                     chosenSprite = 1;
                 }
-                
+
                 // Moving
                 else
                 {

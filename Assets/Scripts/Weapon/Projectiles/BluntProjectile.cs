@@ -5,7 +5,7 @@ using UnityEngine;
 public class BluntProjectile : ProjectileProperties
 {
     public AudioClip hitTarget;
-    public Collider myShooter;    
+    public Collider myShooter;
     /*
     void DestroyTarget(Collision other)
     {
@@ -15,10 +15,10 @@ public class BluntProjectile : ProjectileProperties
         Destroy(gameObject);
     }
     */
-    
+
     private void OnCollisionEnter(Collision other)
     {
-        Debug.Log("TAG: " + other.gameObject.tag);
+        // Debug.Log("TAG: " + other.gameObject.tag);
         if (other.gameObject.CompareTag("Land"))
         {
             LandCollision();
@@ -30,6 +30,6 @@ public class BluntProjectile : ProjectileProperties
                 other.gameObject.GetComponent<PlayerState>().health -= damage;
                 Destroy(gameObject);
             }
-        }             
+        }
     }
 }

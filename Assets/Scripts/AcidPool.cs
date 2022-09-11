@@ -10,21 +10,6 @@ public class AcidPool : MonoBehaviour
 
     private Coroutine activateDamageRate;
 
-    //private ParticleSystemRenderer particleColor;
-    // Start is called before the first frame update
-    void Start()
-    {
-        //particleColor = transform.GetComponent<ParticleSystemRenderer>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-            //particleColor.material.color = Color.white;
-        
-    }
-
     private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.CompareTag("Player") && activateDamageRate == null)
@@ -46,5 +31,5 @@ public class AcidPool : MonoBehaviour
         other.gameObject.GetComponent<PlayerState>().health -= damage;
         yield return new WaitForSecondsRealtime(damageRate);
         activateDamageRate = null;
-    }    
+    }
 }

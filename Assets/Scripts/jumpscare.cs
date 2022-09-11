@@ -21,7 +21,7 @@ public class jumpscare : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
 
@@ -35,9 +35,9 @@ public class jumpscare : MonoBehaviour
         PlaySoundObj(transform.position, angel,1,false,80f, 0.6f);
         yield return new WaitForSecondsRealtime(0.5f);
         Application.Quit();
-        Debug.Log("QUIT");
+        // Debug.Log("QUIT");
     }
-    
+
     public void PlaySoundObj(Vector3 position, AudioClip clip, float volume = 1, bool hasLimitedRange = false,
         float maxDist = 80, float pitch = 1)
     {

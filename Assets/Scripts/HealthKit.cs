@@ -24,7 +24,7 @@ public class HealthKit : MonoBehaviour
 
     // Start is called before the first frame update
     void Awake()
-    {  
+    {
         itemGetEffectObj = itemGetEffect.gameObject;
         itemGetEffectObj.SetActive(false);
 
@@ -69,7 +69,10 @@ public class HealthKit : MonoBehaviour
 
             for (int i = 0; i < model.Length; i++)
             {
-                model[i].SetActive(false);
+                if (model[i])
+                {
+                    model[i].SetActive(false);
+                }
             }
             GlobalVars.PlaySoundObj(transform.position, healthSound, 0.8f);
             gameObject.GetComponent<Collider>().enabled = false;
@@ -78,7 +81,7 @@ public class HealthKit : MonoBehaviour
             itemGetEffect.Play();
             //gameObject.SetActive(false);
         }
-        
+
         // Health >= health limit, cancel out.
         else
         {

@@ -6,13 +6,13 @@ public class ProjectileProperties : MonoBehaviour
 {
     public float secondsBeforeDestroy;
     public float damage;
-    
+
     public bool negateCollisionDamageOnLand;
 
     public bool destroyOnLand;
 
     public BulletTrail bulletTrailScript;
-    
+
     /*
     public bool isExplosive;
     public float explosiveRange;
@@ -23,9 +23,9 @@ public class ProjectileProperties : MonoBehaviour
     {
         StartCoroutine(WaitBeforeDestroy());
     }
-    
 
-    
+
+
     IEnumerator WaitBeforeDestroy()
     {
         yield return new WaitForSecondsRealtime(secondsBeforeDestroy);
@@ -34,7 +34,7 @@ public class ProjectileProperties : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        Debug.Log("TAG: " + other.gameObject.tag);
+        // Debug.Log("TAG: " + other.gameObject.tag);
         if (other.gameObject.CompareTag("Land"))
         {
             LandCollision();

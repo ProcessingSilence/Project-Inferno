@@ -55,7 +55,7 @@ MeshRenderer:
   m_GameObject: {fileID: 462978422148464584}
   m_Enabled: 0
   m_CastShadows: 1
-  m_ReceiveShadows: 1
+  m_ReceiveShadows: 0
   m_DynamicOccludee: 1
   m_MotionVectors: 1
   m_LightProbeUsage: 1
@@ -65,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f624bda8a65b9dc4d9a5e273424aaa55, type: 2}
+  - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5531,9 +5531,17 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8563553667102747501, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8563553667102747501, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 9da3fe2c760d02e48b28b38bf0552a26, type: 2}
+    - target: {fileID: -7729143482605955429, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: -7729143482605955429, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5543,6 +5551,10 @@ PrefabInstance:
       value: Treading Water
       objectReference: {fileID: 0}
     - target: {fileID: 2041161689802602789, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2041161689802602789, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1ad14bc1a4fe6014e86932cdeedafa4d, type: 2}
@@ -5550,6 +5562,10 @@ PrefabInstance:
       propertyPath: m_Controller
       value: 
       objectReference: {fileID: 9100000, guid: c57fc0f3d54526347b92e3637f7aed9c, type: 2}
+    - target: {fileID: 7459691413590289761, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7459691413590289761, guid: f7d9de71c7099b34089a3de30ccfa19d, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
@@ -5639,6 +5655,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 0}
     - target: {fileID: -755009964982586462, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -755009964982586462, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8addee876f5e5ae4891f23b674ac5ce0, type: 2}
@@ -5647,13 +5667,25 @@ PrefabInstance:
       value: Snake weapon
       objectReference: {fileID: 0}
     - target: {fileID: 1170970068873931921, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1170970068873931921, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 434415bae2dd29b4d8bf4d495b0574d5, type: 2}
     - target: {fileID: 2211603234644381724, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2211603234644381724, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 8addee876f5e5ae4891f23b674ac5ce0, type: 2}
+    - target: {fileID: 2929640277652407947, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2929640277652407947, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
       propertyPath: m_Materials.Array.size
       value: 3
@@ -5677,6 +5709,10 @@ PrefabInstance:
     - target: {fileID: 2929640277652407947, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
       propertyPath: m_SelectedEditorRenderState
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5901893356585517859, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5901893356585517859, guid: 43f4c20c7c6a1fb44a752bdbb49997e0, type: 3}
       propertyPath: m_Materials.Array.data[0]
